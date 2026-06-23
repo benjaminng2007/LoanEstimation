@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5e5e538-c501-42cd-a14d-d7913c5fde9e" name="Changes" comment="Fixing New Project">
+      <change afterPath="$PROJECT_DIR$/Financial loan code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="7" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Loan-Calculation" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;benjaminng2007&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/benjaminng2007/LoanEstimation.git&quot;,
+    &quot;accountId&quot;: &quot;f5fbfa2c-b626-4378-aaec-412469d06675&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000035390273" />
+      <entry key="S2" value="1.007714241040153" />
+      <entry key="S5" value="1.1555504367078553" />
+      <entry key="S10" value="1.7436911007769254" />
+      <entry key="S30" value="6.999454933286466" />
+      <entry key="S60" value="14.216741100913337" />
+      <entry key="M2" value="24.92082677159691" />
+      <entry key="M5" value="52.91183027776132" />
+      <entry key="M10" value="86.26274513547254" />
+      <entry key="M15" value="106.30016918716768" />
+      <entry key="M30" value="134.79464591703814" />
+      <entry key="H1" value="153.7036087267576" />
+      <entry key="H2" value="164.7229795556363" />
+      <entry key="H4" value="170.69248704979174" />
+      <entry key="D1" value="175.92417716849465" />
+      <entry key="W1" value="176.8456942606458" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.007830537717E-311" />
+      <entry key="S2" value="2.1168094410446365E-78" />
+      <entry key="S5" value="8.516726604898153E-32" />
+      <entry key="S10" value="2.918457991196805E-16" />
+      <entry key="S30" value="6.85866307589924E-6" />
+      <entry key="S60" value="0.003050473402767925" />
+      <entry key="M2" value="0.07254369533625228" />
+      <entry key="M5" value="0.5199498894422775" />
+      <entry key="M10" value="1.0161486326631317" />
+      <entry key="M15" value="1.2724408848523334" />
+      <entry key="M30" value="1.5946361127185371" />
+      <entry key="H1" value="1.7856762108479367" />
+      <entry key="H2" value="1.8897553424726565" />
+      <entry key="H4" value="1.9440843110940347" />
+      <entry key="D1" value="1.9905685504003516" />
+      <entry key="W1" value="1.9986498768946996" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167329967743" />
+      <entry key="S2" value="1.0048174702232477" />
+      <entry key="S5" value="1.1475195832459595" />
+      <entry key="S10" value="1.722821976365925" />
+      <entry key="S30" value="6.944405463703667" />
+      <entry key="S60" value="14.158673550841064" />
+      <entry key="M2" value="24.92822603465452" />
+      <entry key="M5" value="53.3477113075978" />
+      <entry key="M10" value="87.19804651483966" />
+      <entry key="M15" value="107.50343548749014" />
+      <entry key="M30" value="136.3442216486734" />
+      <entry key="H1" value="155.46342607229585" />
+      <entry key="H2" value="166.5988639141335" />
+      <entry key="H4" value="172.6293852405288" />
+      <entry key="D1" value="177.9135118477419" />
+      <entry key="W1" value="178.84416696557486" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EvDNpUDMim96zkavFJJ733ha6U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Financial loan code.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Loan-Calculation",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ben\IdeaProjects\Loan Estimation" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5e5e538-c501-42cd-a14d-d7913c5fde9e" name="Changes" comment="" />
+      <created>1781050118601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781050118601</updated>
+      <workItem from="1781050121784" duration="651000" />
+      <workItem from="1781223155339" duration="1219000" />
+      <workItem from="1782228284714" duration="4268000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixing New Project">
+      <option name="closed" value="true" />
+      <created>1781050577251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781050577251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing New Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing New Project" />
+  </component>
+</project>
