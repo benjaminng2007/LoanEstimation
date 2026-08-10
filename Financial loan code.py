@@ -14,23 +14,22 @@ def end_program():
 
 class ReadFile:
     def __init__(self):
-        self.contents = None
+        self.contents = []
 
     def read(self):
         while True:
             try:
-                loan_rows = []
                 file_name = input('Please enter the csv file name of your loan statement: ')
                 with open(file_name) as loan_statement:
                     contents = csv.reader(loan_statement)
                     for row in contents:
-                        loan_rows.append(row)
-                self.contents = loan_rows
-                return loan_rows
+                        self.contents.append(row)
+                return self.contents
 
             except FileNotFoundError:
+                print('File is not found, please re-enter')
                 end_program()
-                print('Please enter the csv file again')
+
 
 class LoanStatement(ReadFile):
     def __init__(self):
@@ -50,8 +49,18 @@ class LoanStatement(ReadFile):
         total_amount = self.total_payed()
         for row in self.contents[1:2]:
             loan = float(row[2])
-        interest = total_amount - loan
-        print(f'{interest:.2f}')
+            interest_paid = total_amount - loan
+        return print(f'{interest_paid:.2f}')
+
+    def apr(self):
+        apr = 0
+        for row in self.contents[1:2]:
+            first_month_interest = float(row[5])
+            print(first_month_interest)
+            loan = float(row[2])
+            print(loan)
+            apr = ((first_month_interest / loan) * 12) * 100
+        return print(apr)
 
 
 
@@ -60,7 +69,9 @@ if __name__ == '__main__':
     statement = LoanStatement()
     statement.read()
     statement.show_contents()
+
     print(statement.total_payed())
     statement.interest_paid()
+    statement.apr()
 
 
