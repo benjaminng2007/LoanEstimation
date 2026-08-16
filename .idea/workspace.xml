@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e5e538-c501-42cd-a14d-d7913c5fde9e" name="Changes" comment="Fixing New Project">
-      <change afterPath="$PROJECT_DIR$/Financial loan code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a5e5e538-c501-42cd-a14d-d7913c5fde9e" name="Changes" comment="Fixed ReadFile to have self.contents = []&#10;Added APR Function to LoanStatement class">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial loan code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Financial loan code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loan Estimation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanCalculation.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="13" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,60 +52,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000035390273" />
-      <entry key="S2" value="1.007714241040153" />
-      <entry key="S5" value="1.1555504367078553" />
-      <entry key="S10" value="1.7436911007769254" />
-      <entry key="S30" value="6.999454933286466" />
-      <entry key="S60" value="14.216741100913337" />
-      <entry key="M2" value="24.92082677159691" />
-      <entry key="M5" value="52.91183027776132" />
-      <entry key="M10" value="86.26274513547254" />
-      <entry key="M15" value="106.30016918716768" />
-      <entry key="M30" value="134.79464591703814" />
-      <entry key="H1" value="153.7036087267576" />
-      <entry key="H2" value="164.7229795556363" />
-      <entry key="H4" value="170.69248704979174" />
-      <entry key="D1" value="175.92417716849465" />
-      <entry key="W1" value="176.8456942606458" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000025826525" />
+      <entry key="S5" value="1.0003690165800843" />
+      <entry key="S10" value="1.022570102960642" />
+      <entry key="S30" value="1.974640299996739" />
+      <entry key="S60" value="5.302727980961924" />
+      <entry key="M2" value="13.014061059121635" />
+      <entry key="M5" value="35.6903271134936" />
+      <entry key="M10" value="74.80131666224666" />
+      <entry key="M15" value="106.09862023082057" />
+      <entry key="M30" value="160.07114391991368" />
+      <entry key="H1" value="201.28609821476508" />
+      <entry key="H2" value="227.0231974252651" />
+      <entry key="H4" value="242.32894084184656" />
+      <entry key="D1" value="412.44237585844377" />
+      <entry key="W1" value="780.8824930548033" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.007830537717E-311" />
-      <entry key="S2" value="2.1168094410446365E-78" />
-      <entry key="S5" value="8.516726604898153E-32" />
-      <entry key="S10" value="2.918457991196805E-16" />
-      <entry key="S30" value="6.85866307589924E-6" />
-      <entry key="S60" value="0.003050473402767925" />
-      <entry key="M2" value="0.07254369533625228" />
-      <entry key="M5" value="0.5199498894422775" />
-      <entry key="M10" value="1.0161486326631317" />
-      <entry key="M15" value="1.2724408848523334" />
-      <entry key="M30" value="1.5946361127185371" />
-      <entry key="H1" value="1.7856762108479367" />
-      <entry key="H2" value="1.8897553424726565" />
-      <entry key="H4" value="1.9440843110940347" />
-      <entry key="D1" value="1.9905685504003516" />
-      <entry key="W1" value="1.9986498768946996" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="2.9894906025997103E-192" />
+      <entry key="M10" value="2.404206254685801E-96" />
+      <entry key="M15" value="2.2524087428564486E-64" />
+      <entry key="M30" value="2.1212347310704504E-32" />
+      <entry key="H1" value="2.1729700979296338E-16" />
+      <entry key="H2" value="2.816981812197831E-8" />
+      <entry key="H4" value="4.1526238963949353E-4" />
+      <entry key="D1" value="1.5169703771790721" />
+      <entry key="W1" value="6.305940131488261" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641193252643" />
-      <entry key="MS500" value="0.9917167329967743" />
-      <entry key="S2" value="1.0048174702232477" />
-      <entry key="S5" value="1.1475195832459595" />
-      <entry key="S10" value="1.722821976365925" />
-      <entry key="S30" value="6.944405463703667" />
-      <entry key="S60" value="14.158673550841064" />
-      <entry key="M2" value="24.92822603465452" />
-      <entry key="M5" value="53.3477113075978" />
-      <entry key="M10" value="87.19804651483966" />
-      <entry key="M15" value="107.50343548749014" />
-      <entry key="M30" value="136.3442216486734" />
-      <entry key="H1" value="155.46342607229585" />
-      <entry key="H2" value="166.5988639141335" />
-      <entry key="H4" value="172.6293852405288" />
-      <entry key="D1" value="177.9135118477419" />
-      <entry key="W1" value="178.84416696557486" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044933592" />
+      <entry key="S2" value="0.9965402646509175" />
+      <entry key="S5" value="0.998935928907554" />
+      <entry key="S10" value="1.0205785355129078" />
+      <entry key="S30" value="1.9675588472937382" />
+      <entry key="S60" value="5.294286017922954" />
+      <entry key="M2" value="13.003592296084637" />
+      <entry key="M5" value="35.67328060765714" />
+      <entry key="M10" value="74.77969554981452" />
+      <entry key="M15" value="106.07717844963386" />
+      <entry key="M30" value="160.0544190145209" />
+      <entry key="H1" value="201.2754661679583" />
+      <entry key="H2" value="227.0171770257143" />
+      <entry key="H4" value="242.326132980009" />
+      <entry key="D1" value="413.9579468758697" />
+      <entry key="W1" value="787.1879079198238" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,37 +117,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Financial loan code.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Loan-Calculation",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Financial loan code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Loan_checker.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Loan-Calculation&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ben/IdeaProjects/LoanCalculation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ben\IdeaProjects\Loan Estimation" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Loan_checker" type="PythonConfigurationType" factoryName="Python">
+      <module name="LoanCalculation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (financial_checker)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Financial loan code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +196,13 @@
       <workItem from="1781050121784" duration="651000" />
       <workItem from="1781223155339" duration="1219000" />
       <workItem from="1782228284714" duration="4268000" />
+      <workItem from="1785724697800" duration="599000" />
+      <workItem from="1785954165324" duration="16017000" />
+      <workItem from="1786054542908" duration="190000" />
+      <workItem from="1786054905120" duration="843000" />
+      <workItem from="1786399974026" duration="8818000" />
+      <workItem from="1786728554029" duration="2974000" />
+      <workItem from="1786916251884" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing New Project">
       <option name="closed" value="true" />
@@ -169,7 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781050577251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Idea to .gitignoore">
+      <option name="closed" value="true" />
+      <created>1782234387618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782234387618</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added LoanStatement Child Class to Show and calculate the loan details. Added Description Function">
+      <option name="closed" value="true" />
+      <created>1786054514201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786054514201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed ReadFile to have self.contents = []&#10;Added APR Function to LoanStatement class">
+      <option name="closed" value="true" />
+      <created>1786405007208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786405007208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +244,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing New Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing New Project" />
+    <MESSAGE value="Add Idea to .gitignoore" />
+    <MESSAGE value="Added LoanStatement Child Class to Show and calculate the loan details. Added Description Function" />
+    <MESSAGE value="Fixed ReadFile to have self.contents = []&#10;Added APR Function to LoanStatement class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed ReadFile to have self.contents = []&#10;Added APR Function to LoanStatement class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Financial loan code.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

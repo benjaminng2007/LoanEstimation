@@ -12,6 +12,18 @@ def end_program():
     else:
         pass
 
+class Menu:
+    def __init__(self):
+        self.choice = None
+
+    def menu(self):
+        print('-------------------------------------------------')
+        print('Please enter 1 to read your file\nPlease enter 2 to show your loan statement\nPlease enter 3 to show apr, interest paid, and total payed\nPlease enter 4 to end program.')
+        print('------------------------------------------------')
+        choose = int(input('Please enter a choice: '))
+        print()
+        return choose
+
 class ReadFile:
     def __init__(self):
         self.contents = []
@@ -50,28 +62,38 @@ class LoanStatement(ReadFile):
         for row in self.contents[1:2]:
             loan = float(row[2])
             interest_paid = total_amount - loan
-        return print(f'{interest_paid:.2f}')
+        return interest_paid
 
     def apr(self):
         apr = 0
         for row in self.contents[1:2]:
             first_month_interest = float(row[5])
-            print(first_month_interest)
             loan = float(row[2])
-            print(loan)
             apr = ((first_month_interest / loan) * 12) * 100
-        return print(apr)
-
-
+        return apr
 
 
 if __name__ == '__main__':
+    menu_obj = Menu()
     statement = LoanStatement()
-    statement.read()
-    statement.show_contents()
 
-    print(statement.total_payed())
-    statement.interest_paid()
-    statement.apr()
+    while True:
+        user_choice = menu_obj.menu()
+
+        if user_choice == 1:
+            statement.read()
+
+        elif user_choice == 2:
+            statement.show_contents()
+
+        elif user_choice == 3:
+            print(f'Your total payed fully for the loan is ${statement.total_payed()}')
+            print(f'Your interest paid is ${statement.interest_paid():.2f}')
+            print(f'Your apr is {statement.apr()}%')
+
+        elif user_choice == 4:
+            end_program()
+
+
 
 
